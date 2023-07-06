@@ -13,7 +13,7 @@ def main_menu():
         print("6. Generate Report of Annual Review Reminders")
         print("7. Quit")
 
-        choice = input("Choose an option: ")
+        choice = input("Choose an option from the list below: ")
 
         if choice == "1":
             load_employees()
@@ -33,7 +33,7 @@ def main_menu():
             print("Invalid option, please try again.")
 
 
-# Assuming that the data is stored in a list of dictionaries for easy manipulation
+# create data storage variable
 employees = []
 
 
